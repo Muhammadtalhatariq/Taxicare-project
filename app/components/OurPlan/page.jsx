@@ -1,7 +1,6 @@
 import Image from 'next/image';
-import { useState } from 'react';
 
-export default function Home() {
+export default function page() {
     return (
         <div className="container mx-auto py-12 flex flex-col md:flex-row px-12">
             <div className='md:w-1/3 w-full  pt:pt-6 pt-3'>
