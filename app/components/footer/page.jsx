@@ -1,7 +1,7 @@
 import Image from 'next/image';
 import Link from 'next/link';
 import LinkedInIcon from '@mui/icons-material/LinkedIn';
-export default function page() {
+export default function page () {
     return (
         <footer className="bg-blue-900 text-white py-12">
             <div className="container mx-auto px-4">
