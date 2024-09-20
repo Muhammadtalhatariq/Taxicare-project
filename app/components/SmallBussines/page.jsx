@@ -1,10 +1,6 @@
 "use client"
 import Image from 'next/image';
-import { useState } from 'react';
-
-export default function Home() {
-    const [showText, setShowText] = useState(false);
-
+export default function page () {
     return (
         <div className="relative mb-8">
             <div className="absolute inset-0 opacity-75 z-10" />
@@ -16,7 +12,7 @@ export default function Home() {
                     height={200}
                     className="object-cover"
                     priority
-                    onLoadingComplete={() => setShowText(true)}
+                  
                 />
                 <div className="absolute top-1/2 left-[45%] transform -translate-x-1/2 -translate-y-1/2  text-white z-30">
                     <h1 className="md:text-5xl font-bold">We know Texas.</h1>

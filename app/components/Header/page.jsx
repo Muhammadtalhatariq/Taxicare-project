@@ -127,8 +127,8 @@ const page = () => {
                                 </a>
                                 <div className="hidden group-hover:block z-999 absolute rounded-md pt-6">
                                     <ul className=" text-black bg-white py-2 ">
-                                        {navItem.map((item) => (
-                                            <li className=' '>
+                                        {navItem.map((item)=> (
+                                            <li> 
                                                 <a
                                                     className="hover:bg-red-600 hover:text-white p-2 inline-block transition-all duration-200 w-full px-2"
                                                     href={item.path}
@@ -159,7 +159,7 @@ const page = () => {
                                 <div className="hidden group-hover:block z-999 absolute rounded-md pt-3">
                                     <ul className=" text-black bg-white py-2 ">
                                         {Menu.map((item) => (
-                                            <li className=' '>
+                                            <li key={item.name}>
                                                 <a
                                                     className="hover:bg-red-600 hover:text-white p-2 inline-block transition-all duration-200 text-center w-32 px-2"
                                                     href={item.path}
